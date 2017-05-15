@@ -234,10 +234,10 @@ if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
 	nmap <unique> <silent> <Leader># <Plug>MarkSearchCurrentPrev
 endif
 if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
-	nmap <unique> <silent> <Leader>/ <Plug>MarkSearchAnyNext
+	nmap <unique> <silent> <Leader><Leader>/ <Plug>MarkSearchAnyNext
 endif
 if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
-	nmap <unique> <silent> <Leader>? <Plug>MarkSearchAnyPrev
+	nmap <unique> <silent> <Leader><Leader>? <Plug>MarkSearchAnyPrev
 endif
 if !hasmapto('<Plug>MarkSearchNext', 'n')
 	nmap <unique> <silent> * <Plug>MarkSearchNext
